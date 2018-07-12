@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/php -c /home/f1/.virtphp/envs/myenv/etc/php.ini "$@"

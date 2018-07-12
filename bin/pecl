@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/f1/.virtphp/envs/myenv/bin/php -C -n -q -d include_path=/home/f1/.virtphp/envs/myenv/share/php -d date.timezone=UTC -d output_buffering=1 -d variables_order=EGPCS -d safe_mode=0 -d register_argc_argv="On" /home/f1/.virtphp/envs/myenv/share/php/peclcmd.php -c /home/f1/.virtphp/envs/myenv/etc/pear.conf "$@"
